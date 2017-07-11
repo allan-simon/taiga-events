@@ -1,7 +1,7 @@
 FROM node:alpine
 MAINTAINER Allan Simon <allan.simon@supinfo.com>
 
-RUN apk add --no-cache git
+RUN apk add --no-cache git bash sed
 
 # EVENTS
 
