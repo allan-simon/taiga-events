@@ -1,0 +1,7 @@
+{
+    "url": "amqp://RABBITMQ_DEFAULT_USER:RABBITMQ_DEFAULT_PASS@rabbitmq:5672/RABBITMQ_DEFAULT_VHOST",
+    "secret": "TAIGA_SECRET_KEY",
+    "webSocketServer": {
+        "port": 8888
+    }
+}
