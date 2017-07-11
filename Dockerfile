@@ -12,7 +12,7 @@ WORKDIR /usr/src/taiga-events
 RUN npm install --production
 RUN npm install -g coffee-script
 
-COPY conf/config.json /usr/src/taiga-events/config.json
+COPY config.json /usr/src/taiga-events/config.json
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 RUN chmod +x /docker-entrypoint.sh
